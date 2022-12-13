@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        def remove_characters(str1,c):
+    return ''.join([el for el in str1 if el == c])
+text = "Python Exercises"
+print("Original string")
+print(text)
+except_char = "P"
+print("Remove all characters except",except_char,"in the said string:")
+print(remove_characters(text,except_char))
+text = "google"
+print("\nOriginal string")
+print(text)
+except_char = "g"
+print("Remove all characters except",except_char,"in the said string:")
+print(remove_characters(text,except_char))
+text = "exercises"
+print("\nOriginal string")
+print(text)
+except_char = "e"
+print("Remove all characters except",except_char,"in the said string:")
+print(remove_characters(text,except_char))
+
+    </pre>
+    
+</body>
+</html>

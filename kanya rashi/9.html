@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <pre>
+            var14_1, var14_2 = '0abcxyz', 'abcxyz1'
+
+r1 = [s for s in var14_1 if s not in var14_2]
+r2 = [s for s in var14_2 if s not in var14_1]
+res = r1 + r2
+
+print(''.join(res))
+
+
+common = set('0abcxyz') &amp; set('abcxyz1')
+
+
+common = set('0abcxyz') &amp; set('abcxyz1')
+
+res = [s for s in var14_1 + var14_2 if s not in common]
+
+print(''.join(res))
+
+
+
+        </pre>
+    </body>
+</html>

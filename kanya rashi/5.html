@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <pre>
+        name = input("What is your name? : ")
+age = int(input("What is your age? : "))
+age_after_100_years = str((2022-age)+100)
+
+# passing multiple parameters to print()
+print(name, " you will be 100 years old by the year ", age_after_100_years)
+
+# using string concatenation
+print(name + " you will be 100 years old by the year " + str(age_after_100_years))
+
+# using f-strings
+print(f"{name} you will be 100 years old by the year {age_after_100_years}")
+
+# using %-formatting
+print("%s you will be 100 years old by the year %s" % (name, age_after_100_years) )
+
+# using string.format()
+print("{} you will be 100 years old by the year {}".format(name, age_after_100_years) )
+</pre>
+
+
+
+    </body>
+</html>

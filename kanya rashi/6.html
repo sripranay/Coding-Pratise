@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <pre>
+            def SidesCalculate(self, ):
+    self.side_c = sqrt(self.side_a ** 2 + self.side_b ** 2)
+    return self.side_c
+
+
+
+def AnglesCalculate(self, side_c = None):
+    if side_c == None:
+        side_c = self.side_c
+    x = math.asin(self.side_a / side_c)
+    x = round(x * 180 / math.pi)
+    return x
+
+
+g = Triangle(side_a=int(input("Enter side a: ")), side_b=int(input("Enter side b: ")))
+print("side c =", + g.SidesCalculate())
+print("angle is =", + g.AnglesCalculate(), '°')
+
+
+
+        </pre>
+    </body>
+</html>

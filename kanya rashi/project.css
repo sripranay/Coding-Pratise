@@ -1,0 +1,98 @@
+<style>
+        
+
+
+        
+        li{color: black;}
+        body{
+            margin:0%;
+            padding: 0%;
+            background-color: whitesmoke;
+            
+        }
+
+        
+        .clearfix{
+            content: "";
+            display: block;
+            clear:both
+        }
+        #main-div{
+            width:100%;
+            min-height: auto;
+            
+            float: left;
+    
+        }
+        #main-div .box{
+            width:30%;
+            min-height: auto;
+            background-color: white;
+            float: left;
+            margin-top: 2%;
+            background-image: url("https://img.freepik.com/premium-vector/white-elegant-texture-screensaver_23-2148421855.jpg?w=360");
+        }
+        #main-div .box:nth-child(2){ margin-left: 1%;
+        width:60%;
+        margin-top:2%;
+    }
+       #main-div .box:nth-child(1){
+        margin-left: 2%;
+       }
+         
+        
+      </style>
+    </head>
+    <body background="https://img.freepik.com/free-photo/black-monstera-leaves-background-wallpaper_53876-102420.jpg?w=2000  " >
+        <div id="main-div" class="clearfix">
+            <div class="box" >
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                body {
+                  font-family: "Lato", sans-serif;
+                }
+                
+                .sidenav {
+                  height: 100%;
+                  width: 0;
+                  position: fixed;
+                  z-index: 1;
+                  top: 0;
+                  left: 0;
+                  background-color: #111;
+                  overflow-x: hidden;
+                  transition: 0.5s;
+                  padding-top: 60px;
+                }
+                
+                .sidenav a {
+                  padding: 8px 8px 8px 32px;
+                  text-decoration: none;
+                  font-size: 25px;
+                  color: #818181;
+                  display: block;
+                  transition: 0.3s;
+                }
+                
+                .sidenav a:hover {
+                  color: #f1f1f1;
+                }
+                
+                .sidenav .closebtn {
+                  position: absolute;
+                  top: 0;
+                  right: 25px;
+                  font-size: 36px;
+                  margin-left: 50px;
+                }
+                
+                #main {
+                  transition: margin-left .5s;
+                  padding: 16px;
+                }
+                
+                @media screen and (max-height: 450px) {
+                  .sidenav {padding-top: 15px;}
+                  .sidenav a {font-size: 18px;}
+                }
+                </style>

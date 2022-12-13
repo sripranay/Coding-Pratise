@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>the Elment Object</h1>
+        <h2>the removeChild() Method</h2>
+        <p>Click "replace" to replace the first item from the list:</p>
+        <button onclick="myFunction()">replace</button>
+        <ul id="mylist">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <script>
+            function myFunction() {
+                // Select first child element:
+                const element=document.getElementById("mylist").children[0];
+                // Create a new text node:
+                const newNode=document.createTextNode("Water")
+                // replace the text node:
+                element.replaceChild(newNode,element.childNodes[0])
+            }
+        </script>
+    </body>
+</html>
